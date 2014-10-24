@@ -42,7 +42,7 @@ header {
 }
 
 h1 {
-	font-family: 'Changa One', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin: 15px 0;
 	font-size: 1.75em;
 	font-weight: normal;
@@ -75,7 +75,7 @@ nav li{
 }
 
 nav a {
-	font-weight: 800;
+	font-weight: 700;
 	padding: 15px 10px;
 }
 /**************************
@@ -190,36 +190,38 @@ body {
 
 /* green header */
 
-header {
-	background: #6ab47b;
-	border-color: #599a68;
-}
+/*header {
+	
+}*/
 
 /* nav background on mobile */
 
-nav {
+/*nav {
 	background: #599a68;
-}
+}*/
 
 
 /* logo text */
 h1, h2 {
-	color: #fff;
+	color: black;
 }
 
 /* Links */
 a{
-	color: #6ab47b;
+	color: black;
 }
 
 /* nav link */
 
 nav a, nav a:visited {
-	color: #fff;
+	color: gray;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 /* selected nav link */
 nav a.selected, nav a:hover {
-	color: #32673f;
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 
