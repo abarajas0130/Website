@@ -75,7 +75,7 @@ nav li{
 }
 
 nav a {
-	font-weight: 700;
+	font-weight: 300;
 	padding: 15px 10px;
 }
 /**************************
@@ -132,7 +132,7 @@ Page: Portfolio
 	margin: 0;
 	padding: 5%;
 	font-size: 0.75em;
-	color: #bdc3c7;
+	color: black;
 
 
 }
@@ -184,8 +184,8 @@ COLORS
 
 /* site body */
 body {
-	background-color: #fff;
-	color: #999;
+	background-color: white;
+	
 }
 
 /* green header */
