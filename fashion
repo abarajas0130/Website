@@ -1,10 +1,12 @@
-
 <!DOCTYPE html>
 
 <html>
 	<head>
+		<link rel="icon" 
+     	type="image/png" 
+      	href="img/favicon.ico">
 		<meta charset="utf-8">
-		<title>Alejandro About</title>
+		<title>Alejandro Photographer</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/main.css">
@@ -19,8 +21,8 @@
 		</a>
 		<nav>
 			<ul>
-				<li><a href="index.html" >Portfolio</a></li>
-				<li><a href="about.html"class="selected">About</a></li>
+				<li><a href="index.html" class="selected">Portfolio</a></li>
+				<li><a href="about.html">About</a></li>
 				<li><a href="contact.html">Contact</a></li>
 
 			</ul>
@@ -28,10 +30,27 @@
 		</header>
 		<div id="wrapper">
 			<section>
-				<img src="img/alejandro.jpg" alt="Photograph of Alejandro Barajas" class="profile-photo">
-				<h3>About</h3>
-				<p>Hey, This is Alejandro Barajas! This is my portfolio for you to check out my work from my past years I've been a graphic designer in Spokane, WA. I do enjoy different things while I'm away from my lab. I enjoy going to the gym, having a drink at the beach, traveling to other states I've never been and learning from other designers.</p>
-				<p>If you'd like to fallow me on Twitter, my username is Alejandro0130</p>
+				<ul id="gallery">
+					<li>
+						<a href="img/fash.png">					
+						<img src="img/fash.png" alt="">
+						<p>Fashion</p>
+						</a>
+					</li>
+					<li>
+						<a href="img/fit.png">					
+						<img src="img/fit.png" alt="">
+						<p>Fitness</p>
+						</a>
+					</li>
+					<li>
+						<a href="img/head.png">					
+						<img src="img/head.png" alt="">
+						<p>Headshots</p>
+						</a>
+					</li>
+
+				</ul>
 				
 			</section>
 			<footer>

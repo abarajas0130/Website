@@ -132,18 +132,19 @@ Page: Portfolio
 	margin: 0;
 	padding: 5%;
 	font-size: 1em;
-	color: black;
+	color: #6e6e6e;
 	text-transform: uppercase;
 	text-align: center;
 
 
 }
 
-li:hover {
-	color: gray;
-	font-family: 'Open Sans Condensed', sans-serif;
-
+#gallery li a p:hover {
+	color: black;
 }
+
+
+
 
 
 
@@ -192,8 +193,8 @@ COLORS
 
 /* site body */
 body {
+
 	background-color: white;
-	
 }
 
 /* green header */
