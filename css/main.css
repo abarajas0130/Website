@@ -210,7 +210,7 @@ COLORS
 /* site body */
 body {
 
-	background-color: white;
+	background-image: url("../img/bg.png");
 }
 
 /* green header */
